@@ -13,6 +13,7 @@
   "scripts": {
     "build": "build-figma-plugin --typecheck --minify",
     "watch": "build-figma-plugin --typecheck --watch"
+
   },
   "figma-plugin": {
     "editorType": [
@@ -31,3 +32,4 @@
     "permissions": ["currentuser"]
   }
 }
+$ npm run build
